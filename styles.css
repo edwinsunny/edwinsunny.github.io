@@ -47,11 +47,16 @@ html{
 
 header{
     font-size: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #b7b7b7;
 }
 
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
   }
   
   .topnav {
@@ -86,5 +91,32 @@ body {
 .footer-copyright p{
   color: #b7b7b7;
   margin-bottom: 0;
+  text-align: center;
 }
 
+.project-card {
+  display: flex;
+  width: 100%;
+  padding: 50px;
+  background: lightgrey;
+}
+
+.main-section {
+  background-color: grey;
+}
+
+.heading-primary {
+  color: black#404040;
+  font-size: 8rem;
+}
+
+.form-btn {
+  font-size: 1.4rem;
+  padding: 1rem 2.5rem;
+  border-radius: 0.6rem;
+  background-color: green;
+}
+
+.heading-second {
+  font-size: 3.5rem;
+}
